@@ -24,18 +24,18 @@ Install-Package prmToolkit.EnumExtension
 ```sh
 //Exemplo de Enum
 public enum EnumAtuacao
-    {
-        [Description("Responsável por dirigir o veículo")]
-        Motorista = 0,
-        [Description("Responsável por cobrar a passagem")]
-        Cobrador = 1,
+{
+    [Description("Responsável por dirigir o veículo")]
+    Motorista = 0,
+    [Description("Responsável por cobrar a passagem")]
+    Cobrador = 1,
 
-        Despachante = 2,
+    Despachante = 2,
 
-        Fiscal = 3,
+    Fiscal = 3,
 
-        MonitorDePonto = 4
-    }
+    MonitorDePonto = 4
+}
     
     
 public void Exemplo(){
