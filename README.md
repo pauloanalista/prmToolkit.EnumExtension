@@ -18,3 +18,39 @@ Install-Package prmToolkit.EnumExtension
 - GetAttribute (Obtém o atributo customizado do enum)
 - IsEnumValid(Validar se o valor que está no Enum foi definido corretamente)
 - IsEnumValid(Validar se o valor inteiro pertence a um Enum especifico)
+
+
+### Alguns exemplos
+```sh
+//Exemplo de Enum
+public enum EnumAtuacao
+    {
+        [Description("Responsável por dirigir o veículo")]
+        Motorista = 0,
+        [Description("Responsável por cobrar a passagem")]
+        Cobrador = 1,
+
+        Despachante = 2,
+
+        Fiscal = 3,
+
+        MonitorDePonto = 4
+    }
+    
+    
+public void Exemplo(){
+  //Para obter a descrição que foi definida nas anotações do Enum
+  string nomeDoAtributoDaAtuacao = atuacao.GetDescription();
+}
+
+
+public Inserir(EnumAtuacao atuacao, DateTime dataDeContratacao)
+{
+    //Verifica se o valor que foi passado por parametro no Enum existe dentro das definições do EnumAtuacao
+    bool enumValido = atuacao.IsEnumValid();
+
+    //É possível testar se um inteiro contém dentro da definição de um Enum
+    int valor = 99;
+    bool enumValido = valor.IsEnumValid<EnumAtuacao>();
+}
+```        
