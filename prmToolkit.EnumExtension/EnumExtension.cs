@@ -2,7 +2,7 @@
 using System.ComponentModel;
 
 
-namespace prmToolkit.EnumExtension.Standard
+namespace prmToolkit.EnumExtension
 {
     public static class EnumExtension
     {
