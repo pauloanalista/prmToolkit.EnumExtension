@@ -6,3 +6,4 @@ C:\_Paulo\GitHub\prmToolkit.EnumExtension\prmToolkit.EnumExtension\obj\Release\n
 C:\_Paulo\GitHub\prmToolkit.EnumExtension\prmToolkit.EnumExtension\obj\Release\netstandard2.0\prmToolkit.EnumExtension.AssemblyInfo.cs
 C:\_Paulo\GitHub\prmToolkit.EnumExtension\prmToolkit.EnumExtension\obj\Release\netstandard2.0\prmToolkit.EnumExtension.dll
 C:\_Paulo\GitHub\prmToolkit.EnumExtension\prmToolkit.EnumExtension\obj\Release\netstandard2.0\prmToolkit.EnumExtension.pdb
+C:\_Paulo\GitHub\prmToolkit.EnumExtension\prmToolkit.EnumExtension\obj\Release\netstandard2.0\prmToolkit.EnumExtension.csprojResolveAssemblyReference.cache

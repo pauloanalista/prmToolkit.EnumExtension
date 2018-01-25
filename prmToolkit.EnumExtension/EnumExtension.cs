@@ -76,12 +76,11 @@ namespace prmToolkit.EnumExtension
         /// <summary>
         /// Retorna nome do Enum selecionado
         /// </summary>
-        /// <typeparam name="TEnum">Tipo genérico que representa o Enum</typeparam>
         /// <param name="valueEnum">Valor do Enum selecionado pelo usuário</param>
         /// <returns>Retorna o nome do Enum selecionado</returns>
-        public static string GetName<TEnum>(this Enum valueEnum)
+        public static string GetName(this Enum valueEnum)
         {
-            return Enum.GetName(typeof(TEnum), valueEnum);
+            return valueEnum.ToString();
         }
     }
 }
