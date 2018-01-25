@@ -16,9 +16,9 @@ Install-Package prmToolkit.EnumExtension
 - GetDescription (obtém a descrição do enum)
 - ToEnum (Obtém o Enum através do nome passado)
 - GetAttribute (Obtém o atributo customizado do enum)
-- IsEnumValid(Validar se o valor que está no Enum foi definido corretamente)
-- IsEnumValid(Validar se o valor inteiro pertence a um Enum especifico)
-
+- IsEnumValid (Validar se o valor que está no Enum foi definido corretamente)
+- IsEnumValid (Validar se o valor inteiro pertence a um Enum especifico)
+- GetName(Obtem o nome do Enum selecionado)
 
 ### Alguns exemplos
 ```sh
