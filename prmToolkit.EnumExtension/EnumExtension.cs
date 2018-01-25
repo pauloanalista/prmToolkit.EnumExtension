@@ -47,7 +47,7 @@ namespace prmToolkit.EnumExtension
         /// </summary>
         /// <param name="value">Valor setado no Enum</param>
         /// <returns>Retorna se o Enum possuí valor válido.</returns>
-        public static bool IsEnumValid(this System.Enum value)
+        public static bool IsEnumValid(this Enum value)
         {
             if (System.Enum.IsDefined(value.GetType(), value))
             {
@@ -71,6 +71,17 @@ namespace prmToolkit.EnumExtension
             }
 
             return false;
+        }
+
+        /// <summary>
+        /// Retorna nome do Enum selecionado
+        /// </summary>
+        /// <typeparam name="TEnum">Tipo genérico que representa o Enum</typeparam>
+        /// <param name="valueEnum">Valor do Enum selecionado pelo usuário</param>
+        /// <returns>Retorna o nome do Enum selecionado</returns>
+        public static string GetName<TEnum>(this Enum valueEnum)
+        {
+            return Enum.GetName(typeof(TEnum), valueEnum);
         }
     }
 }
