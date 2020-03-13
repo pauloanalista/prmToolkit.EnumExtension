@@ -54,3 +54,11 @@ public Inserir(EnumAtuacao atuacao, DateTime dataDeContratacao)
     bool enumValido = valor.IsEnumValid<EnumAtuacao>();
 }
 ```        
+
+# VEJA TAMBÉM
+## Cursos baratos!
+- [Meus cursos](https://olha.la/udemy)
+
+## Novidades, cupons de descontos e cursos gratuitos
+https://olha.la/ilovecode-receber-cupons-novidades
+
